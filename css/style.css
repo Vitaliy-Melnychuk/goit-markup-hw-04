@@ -114,10 +114,13 @@ a.currentlink {
 }
 
 .hero {
+    height: 200px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../images/hero.jpg);
     text-align: center;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
 }
 .hero-title {
     font-weight: 900;
@@ -125,6 +128,7 @@ a.currentlink {
     line-height: 60px;
     color: var(--white-color);
     text-transform: uppercase;
+    margin: 0 0 30px 0;
 }
 .hero-btn {
     font-weight: 700;
