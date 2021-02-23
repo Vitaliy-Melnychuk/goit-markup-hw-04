@@ -103,8 +103,8 @@ a.currentlink {
     fill: var(--blue-color);
 }
 .header-tel-icon {
-    width: 16px;
-    height: 20px;
+    width: 10px;
+    height: 16px;
     fill: #AFB1B8;
     margin-right: 10px;
 }
@@ -133,6 +133,7 @@ a.currentlink {
 .hero-btn {
     font-weight: 700;
     font-size: 16px;
+    border: none;
     border-radius: 4px;
     padding: 10px 32px;
     color: var(--white-color);
@@ -192,9 +193,8 @@ a.currentlink {
     margin-right: 30px;
 }
 .team-wrapper {
-    padding-bottom: 30px;
-    padding-top: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 30px 32px;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
 }
 .team-item-title {
@@ -209,8 +209,6 @@ a.currentlink {
     color: var(--popular-color);
 }
 .team-list-icon-wrapper {
-    padding-left: 32px;
-    padding-right: 32px;
     padding-top: 16px;
 }
 .team-icon-link {
