@@ -260,6 +260,9 @@ a.currentlink {
 .client-item:last-child {
     margin-right: 0;
 }
+.client-icon {
+    fill: currentColor;
+}
 .client-icon-link {
     display: flex;
     align-items: center;
@@ -268,14 +271,12 @@ a.currentlink {
     height: 88px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    color: #AFB1B8;
 }
 .client-icon-link:focus,
 .client-icon-link:hover {
     border-color: var(--blue-color);
-}
-.client-icon-link:focus .client-icon,
-.client-icon-link:hover .client-icon {
-    fill: var(--blue-color);
+    color: var(--blue-color);
 }
 
 .footer {
