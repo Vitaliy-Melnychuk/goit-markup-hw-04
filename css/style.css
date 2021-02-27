@@ -4,7 +4,6 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: var(--brand-color);
-    max-width: 1600px;
 }
 ul {
     list-style: none;
@@ -57,6 +56,8 @@ a.currentlink {
 
 .header {
     border-bottom: 1px solid #ECECEC;
+    max-width: 1600px;
+    margin: 0 auto;
  }
  .muve {
     justify-content: space-between;
@@ -121,6 +122,8 @@ a.currentlink {
     background-image: url('../images/hero.jpg');
     background-size: cover;
     background-position: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .hero-title {
     font-weight: 900;
@@ -131,6 +134,7 @@ a.currentlink {
     margin: 0 0 30px 0;
 }
 .hero-btn {
+    cursor: pointer;
     font-weight: 700;
     font-size: 16px;
     border: none;
@@ -143,6 +147,8 @@ a.currentlink {
 .features {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .features-item {
     width: 270px;
@@ -173,6 +179,8 @@ a.currentlink {
 .work {
     text-align: center;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .work-title {
     font-weight: bold;
@@ -190,6 +198,8 @@ a.currentlink {
     padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .team-title {
     font-weight: bold;
@@ -200,11 +210,11 @@ a.currentlink {
 .team-item {
     background-color: var(--white-color);
     margin-right: 30px;
-}
-.team-wrapper {
-    padding: 30px 32px;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
     border-radius: 0px 0px 4px 4px;
+}
+.team-wrapper {
+    margin: 30px 32px;
 }
 .team-item-title {
     font-weight: 500;
@@ -248,6 +258,8 @@ a.currentlink {
 .client {
     padding: 94px 0 94px 0;
     text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .client-title {
     font-size: 36px;
@@ -283,6 +295,8 @@ a.currentlink {
     background: var(--background-gray);
     padding-top: 60px;
     padding-bottom: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .footer .container {
     display: flex;
@@ -344,6 +358,8 @@ a.currentlink {
 .projects {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 .project-filter {
     justify-content: center;
@@ -352,6 +368,7 @@ a.currentlink {
     margin-right: 8px;
 }
 .filter-btn {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     text-align: center;
