@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
     line-height: 16px;
     color: var(--brand-color);
@@ -65,6 +66,7 @@ a.currentlink {
 .logotype-studio {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    font-weight: 700;
     line-height: 31px;
     color: var(--blue-color);
     margin-right: 94px;
@@ -94,8 +96,6 @@ a.currentlink {
     align-items: center;
 }
 .header-mail-icon {
-    width: 16px;
-    height: 12px;
     fill: #AFB1B8;
     margin-right: 10px;
 }
@@ -104,8 +104,6 @@ a.currentlink {
     fill: var(--blue-color);
 }
 .header-tel-icon {
-    width: 10px;
-    height: 16px;
     fill: #AFB1B8;
     margin-right: 10px;
 }
@@ -140,6 +138,7 @@ a.currentlink {
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
+    line-height: 30px;
     border: none;
     border-radius: 4px;
     padding: 10px 32px;
@@ -170,7 +169,7 @@ a.currentlink {
     justify-content: center;
 }
 .features-item-title {
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 .features-item-content {
@@ -186,7 +185,7 @@ a.currentlink {
     margin: 0 auto;
 }
 .work-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     margin-bottom: 50px;
@@ -205,7 +204,7 @@ a.currentlink {
     margin: 0 auto;
 }
 .team-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     margin-bottom: 50px;
@@ -267,6 +266,7 @@ a.currentlink {
 .client-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 42px;
     margin-bottom: 50px;
 }
 .client-item {
@@ -328,13 +328,16 @@ a.currentlink {
     color: var(--ligt-gray);
 }
 .footer-icon-wrapper {
+    margin-top: 12px;
     margin-left: 70px;
 }
 .footer-icon-title {
     text-transform: uppercase;
     font-weight: 700;
-    margin-bottom: 20px;
+    font-style: normal;
     font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
     color: var(--white-color);
 }
 .footer-icon-link {
@@ -373,7 +376,9 @@ a.currentlink {
 .filter-btn {
     cursor: pointer;
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
+    line-height: 26px;
     text-align: center;
     color: var(--brand-color);
     background-color: var(--gray);
@@ -418,7 +423,7 @@ a.currentlink {
     border-bottom: 1px solid #EEEEEE;
 }
 .project-item-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     margin-bottom: 4px;
